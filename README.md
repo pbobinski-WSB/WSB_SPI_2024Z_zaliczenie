@@ -1,0 +1,1 @@
+# WSB_SPI_2024Z_zaliczenie
