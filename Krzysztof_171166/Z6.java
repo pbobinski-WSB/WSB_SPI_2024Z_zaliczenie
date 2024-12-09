@@ -13,7 +13,7 @@ public class Z6 {
 
         if (income <= secondTreshold) {
             tax=0.18;
-            taxValue=income*tax-taxfree;
+            taxValue=(income-taxfree)*tax;
         } else {
             tax=0.32;
             taxValue=(income-secondTreshold)*tax+maxft;
