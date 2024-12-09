@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Z6 {
     public static void main(String[] args) {
         double income, tax, taxValue, taxfree, secondTreshold, maxft;
-        secondTreshold = 85258;
-        taxfree=556.02;
-        maxft=14839.02;
+        secondTreshold = 120000;
+        taxfree=30000;
+        maxft=16200;
 
         Scanner input = new Scanner(System.in);
         System.out.print("Podaj kwotę dochodu: ");
