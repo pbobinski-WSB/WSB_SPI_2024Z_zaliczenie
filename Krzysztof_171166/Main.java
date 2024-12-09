@@ -11,7 +11,8 @@ public class Main {
         boolean b2 = false;
         System.out.println(b1);
         System.out.println(b2);
-        System.out.println(b1 || b2);
-        System.out.println(b1 && b2);
+        System.out.print(b1 || b2);
+        System.out.print(b1 && b2);
+        System.out.println(b1 ? "Test" : "Test2");
     }
 }
