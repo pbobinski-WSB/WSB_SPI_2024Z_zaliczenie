@@ -1,1 +1,1 @@
-# WSB_SPI_2024Z_zaliczenie
+Stanisław 179172 grupa 6
