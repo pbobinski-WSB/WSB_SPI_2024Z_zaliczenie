@@ -1,1 +1,1 @@
-def helper():\n    pass
+"print('Hello, WSB!')"
