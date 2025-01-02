@@ -15,6 +15,15 @@ struct Punkt {
     }
 };
 
+// Funkcja obliczająca silnię liczby
+int silnia(int n) {
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * silnia(n - 1);
+    }
+}
+
 int main() {
     // Statyczna alokacja struktury
     Punkt p1;
