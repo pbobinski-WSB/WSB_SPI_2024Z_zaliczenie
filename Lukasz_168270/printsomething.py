@@ -1,1 +1,1 @@
-print("as described - something :D")
+print("as described - something :D w wykonaniu Łukasza")
