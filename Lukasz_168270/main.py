@@ -1,1 +1,1 @@
-print("Dzien dobry z tej strony Łukasz")
+print("Dzien dobry z tej strony Łukasz!")
