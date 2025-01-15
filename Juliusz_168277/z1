@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class KonwerterTemperatur {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Konwerter temperatur: Celsjusz na Fahrenheity");
+        System.out.print("Podaj temperaturę w stopniach Celsjusza: ");
+        double stopnieCelsjusza = scanner.nextDouble();
+
+        double stopnieFahrenheita = (stopnieCelsjusza * 9/5) + 32;
+
+        System.out.println("Temperatura w stopniach Fahrenheita: " + stopnieFahrenheita);
+
+        scanner.close();
+    }
+}
