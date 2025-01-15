@@ -25,6 +25,18 @@ public class Kalkulator {
                 wynik = liczba1 - liczba2;
                 System.out.println("Wynik: " + wynik);
                 break;
+            case '*':
+                wynik = liczba1 * liczba2;
+                System.out.println("Wynik: " + wynik);
+                break;
+            case '/':
+                if (liczba2 != 0) {
+                    wynik = liczba1 / liczba2;
+                    System.out.println("Wynik: " + wynik);
+                } else {
+                    System.out.println("Błąd: Dzielenie przez zero!");
+                }
+                break;
             default:
                 System.out.println("Nieprawidłowy operator!");
         }
