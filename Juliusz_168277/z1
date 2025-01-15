@@ -4,13 +4,31 @@ public class KonwerterTemperatur {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Konwerter temperatur: Celsjusz na Fahrenheity");
-        System.out.print("Podaj temperaturę w stopniach Celsjusza: ");
-        double stopnieCelsjusza = scanner.nextDouble();
+        System.out.println("Konwerter temperatur");
+        System.out.println("Wybierz opcję:");
+        System.out.println("1 - Zamiana stopni Celsjusza na Fahrenheity");
+        System.out.println("2 - Zamiana stopni Fahrenheita na Celsjusza");
+        System.out.print("Twój wybór: ");
+        int wybor = scanner.nextInt();
 
-        double stopnieFahrenheita = (stopnieCelsjusza * 9/5) + 32;
+        switch (wybor) {
+            case 1:
+                System.out.print("Podaj temperaturę w stopniach Celsjusza: ");
+                double stopnieCelsjusza = scanner.nextDouble();
+                double stopnieFahrenheita = (stopnieCelsjusza * 9/5) + 32;
+                System.out.println("Temperatura w stopniach Fahrenheita: " + stopnieFahrenheita);
+                break;
 
-        System.out.println("Temperatura w stopniach Fahrenheita: " + stopnieFahrenheita);
+            case 2:
+                System.out.print("Podaj temperaturę w stopniach Fahrenheita: ");
+                stopnieFahrenheita = scanner.nextDouble();
+                stopnieCelsjusza = (stopnieFahrenheita - 32) * 5/9;
+                System.out.println("Temperatura w stopniach Celsjusza: " + stopnieCelsjusza);
+                break;
+
+            default:
+                System.out.println("Nieprawidłowy wybór! Wybierz 1 lub 2.");
+        }
 
         scanner.close();
     }
