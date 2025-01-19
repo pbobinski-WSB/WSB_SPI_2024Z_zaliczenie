@@ -1,2 +1,1 @@
-"print('Goodbye, World!')" 
-"print('Another line in file2')" 
+"print('Goodbye, new branch')" 
