@@ -13,5 +13,13 @@ public class Book {
         this.genre = genre;
     }
 
-
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", pages=" + pages +
+                ", genre='" + genre + '\'' +
+                '}';
+    }
 }
