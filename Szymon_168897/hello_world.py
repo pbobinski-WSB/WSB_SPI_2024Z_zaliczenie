@@ -1,5 +1,5 @@
 def alternate_greeting():
-    print("Witaj! Cieszę się, że jesteś tutaj!")
+    print("Witaj! Bardzo się cieszę, że jesteś tutaj!")
     
 def string_operations():
     print("Operacje na łańcuchach znaków.")

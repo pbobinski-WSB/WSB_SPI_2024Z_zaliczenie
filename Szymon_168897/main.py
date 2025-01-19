@@ -1,7 +1,7 @@
 import random
 
 def greet_user():
-    print("Witaj w moim programie!")
+    print("Witaj w moim programie! Cieszę się, że tu jesteś")
     name = input("Podaj swoje imię: ")
     print(f"Cześć, {name}!\n")
 
