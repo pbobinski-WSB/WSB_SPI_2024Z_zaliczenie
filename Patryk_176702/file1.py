@@ -1,2 +1,2 @@
-"print('Hello, World!')"  
-"print('New line in file1')" 
+print('Hello, new branch')
+print('Extended feature content')
