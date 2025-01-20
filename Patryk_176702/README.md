@@ -1,0 +1,1 @@
+Patryk_176702_INF_INŻ_10_2024_N_sem1_CW7
